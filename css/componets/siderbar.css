@@ -1,8 +1,22 @@
 .v-sidebar { 
+    display: flex;
+    width: 100%;
     padding-top: 1rem;
+    width: 8rem;
+    background: var(--md-ref-palette-secondary98);
+    color: var(--md-ref-palette-neutral-variant0);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    user-select: none;
+    gap: 1rem;
+}
+
+.v-sidebar-avatar {
     width: 6rem;
-    background:  var(--md-ref-palette-secondary10);
-    color: var(--md-ref-palette-neutral-variant99);
+    height: 6rem;
+    border-radius: 6rem;
+    border: solid 1px
 }
 
 .v-sidebar-menu {

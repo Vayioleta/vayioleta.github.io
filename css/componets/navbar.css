@@ -6,6 +6,8 @@
     flex-direction: row;
     flex-wrap: nowrap;
     padding-left: 1rem;
+    justify-content: center;
+    user-select: none;
 }
 
 .v-navbar-caption {
