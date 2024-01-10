@@ -1,0 +1,43 @@
+/* Estilos generales */
+.v-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); /* Dividir en 12 columnas */
+  gap: .5rem; /* Espacio entre elementos */
+  margin: 0 auto; /* Centrar en la página */
+  max-width: 100%; /* Tamaño máximo del grid */
+  /* padding: 20px; */
+}
+
+/* Estilos para celdas de diferentes tamaños */
+.cell-1 { grid-column-end: span 1; }
+.cell-2 { grid-column-end: span 2; }
+.cell-3 { grid-column-end: span 3; }
+.cell-4 { grid-column-end: span 4; }
+.cell-5 { grid-column-end: span 5; }
+.cell-6 { grid-column-end: span 6; }
+.cell-7 { grid-column-end: span 7; }
+.cell-8 { grid-column-end: span 8; }
+.cell-9 { grid-column-end: span 9; }
+.cell-10 { grid-column-end: span 10; }
+.cell-11 { grid-column-end: span 11; }
+.cell-12 { grid-column-end: span 12; }
+
+/* Media Queries para tamaños específicos de pantalla */
+@media (max-width: 960px) {
+  .v-cell {
+      grid-column-end: span 12; /* Ocupar todo el ancho en dispositivos de 960px o menos */
+  }
+}
+
+@media (max-width: 720px) {
+  .v-cell {
+      grid-column-end: span 12; /* Ocupar la mitad del ancho en dispositivos de 720px o menos */
+  }
+}
+
+@media (max-width: 540px) {
+  .v-cell {
+      grid-column-end: span 12; /* Volver a ocupar todo el ancho en dispositivos de 540px o menos */
+      margin-bottom: 20px; /* Agregar espacio entre elementos en dispositivos pequeños */
+  }
+}

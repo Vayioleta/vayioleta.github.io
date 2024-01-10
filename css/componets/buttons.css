@@ -1,0 +1,33 @@
+.v-button {
+    border: 0;
+    padding: 0.5rem;
+    border-radius: .5rem;
+    background: transparent;
+    transition: 150ms;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:.3rem;
+}
+
+.v-button:hover {
+    transform: scale(1.03);
+    border-radius: 0.2rem;
+}
+
+.v-button:active {    
+    transform: scale(1.07);
+}
+
+.v-button-primary { 
+    color: var(--md-ref-palette-primary98);
+    background: var(--md-ref-palette-primary25);
+}
+
+.v-button-secondary { 
+    color: var(--md-ref-palette-secondary98);
+    background: var(--md-ref-palette-secondary20);
+}

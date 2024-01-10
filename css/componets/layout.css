@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+.v-layout {
+    width: 100%;
+    height: calc( 100vh - 5rem );
+  
+    display: grid;
+    grid:
+      "content" 1fr;
+    /*gap: 8px;*/
+    color: var(--md-ref-palette-neutral10);
+    background: var(--md-ref-palette-neutral95);
+}
+
+.v-sidebar { 
+    grid-area: sidebar;
+}
+
+.v-content { 
+    grid-area: content;
+    background: var(--md-ref-palette-neutral95);
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 1rem;
+}

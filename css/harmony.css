@@ -1,0 +1,28 @@
+/* Nomalize css lib */
+@import url(normalize.css);
+
+/* Material 3 builder css */
+@import url(tokens.css);
+@import url(colors.module.css);
+@import url(fonts.css);
+@import url(elevation.css);
+
+/* Loader */
+@import url(loading.css);
+
+/* Animaciones */
+@import url(componets/animations.css);
+
+/* Components style */
+@import url(componets/layout.css);
+@import url(componets/navbar.css);
+@import url(componets/siderbar.css);
+@import url(componets/panel.css);
+@import url(componets/buttons.css);
+@import url(componets/table.css);
+@import url(componets/modal.css);
+@import url(componets/scroll.css);
+@import url(componets/input.css);
+@import url(componets/grid.css);
+@import url(componets/v-utils.css);
+@import url(componets/stepper.css);

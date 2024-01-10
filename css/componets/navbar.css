@@ -1,0 +1,50 @@
+.v-navbar{
+    display: flex;
+    color: var(--md-ref-palette-neutral10);
+    background: var(--md-ref-palette-neutral98);
+    height: 5rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 1rem;
+}
+
+.v-navbar-caption {
+    display: flex;
+    font-family: Roboto;
+    font-weight: 600;
+    align-content: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    font-size: 1.5rem;
+    letter-spacing: .5rem;
+}
+
+.v-navbar-caption-icon {
+    font-size: 1.8rem;
+    transform: rotate(180deg);
+}
+
+.v-navbar-logo {
+    height: 2.5rem;
+}
+
+.v-navbar-menu {
+    margin-left: auto;
+    display: flex;
+}
+
+.v-navbar-menu-item {
+    list-style-type: none;
+    margin-right: 1rem;
+}
+
+.v-navbar-menu-item a {
+    text-decoration: none;
+    color: var(--md-ref-palette-neutral100);
+}
+
+.v-navbar-menu-icon {
+    font-size: 1.2rem;
+}
