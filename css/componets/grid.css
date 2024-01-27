@@ -2,10 +2,12 @@
 .v-grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr); /* Dividir en 12 columnas */
-  gap: .5rem; /* Espacio entre elementos */
   margin: 0 auto; /* Centrar en la página */
   max-width: 100%; /* Tamaño máximo del grid */
-  /* padding: 20px; */
+}
+
+.v-cell {
+  margin: .5rem;
 }
 
 /* Estilos para celdas de diferentes tamaños */
@@ -38,6 +40,6 @@
 @media (max-width: 540px) {
   .v-cell {
       grid-column-end: span 12; /* Volver a ocupar todo el ancho en dispositivos de 540px o menos */
-      margin-bottom: 20px; /* Agregar espacio entre elementos en dispositivos pequeños */
+      /* margin-bottom: 20px; /* Agregar espacio entre elementos en dispositivos pequeños */
   }
 }

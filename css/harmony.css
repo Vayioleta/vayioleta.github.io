@@ -26,3 +26,6 @@
 @import url(componets/grid.css);
 @import url(componets/v-utils.css);
 @import url(componets/menubar.css);
+@import url(componets/glass-panel.css);
+
+@import url(theme.css);

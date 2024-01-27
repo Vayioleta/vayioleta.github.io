@@ -1,0 +1,20 @@
+.grid-layout{
+    grid-template-rows: 25rem;
+    grid-auto-rows: 25rem;
+    overflow: scroll;
+}
+
+.grid-description {
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.perfil-info {
+    background: url('/img/banner.png');
+    background-position: center;
+    background-size: cover;
+}

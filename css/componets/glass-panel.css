@@ -1,0 +1,29 @@
+.glass {
+    background: rgba(255, 255, 255, 0.19);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(50px);
+    height: calc( 100vh - 7rem);
+    padding: 1rem;
+}
+
+.glass-back {
+    background: url('/img/bubbles.jpg');
+}
+
+.glass-card {
+    background: var(--md-ref-palette-neutral0);
+    border-radius: 2rem;
+    color: var(--md-ref-palette-neutral99);
+    filter: drop-shadow(0px 0px 5px black);
+    padding: 2rem;
+}
+
+.v-avatar {
+    position: absolute;
+    color: black;
+    bottom: 1rem;
+    left: 2rem;
+    background: var(--md-ref-palette-neutral98);
+    padding: 1rem;
+    border-radius: 2rem;
+}
