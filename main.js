@@ -4,4 +4,4 @@ class Portal {
     }
 }
 
-const Portal = new Portal();
+const portal = new Portal();
