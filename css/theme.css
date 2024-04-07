@@ -8,7 +8,7 @@
     overflow-x: hidden;
     overflow-y: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
     justify-content: center;
 }
@@ -17,4 +17,11 @@
     background: url('/img/banner.png');
     background-position: center;
     background-size: cover;
+}
+
+body {
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }

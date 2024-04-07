@@ -1,6 +1,6 @@
 .v-navbar{
     display: flex;
-    background: var(--md-ref-palette-neutral0);
+    background: var(--md-ref-palette-neutral10);
     color: var(--md-ref-palette-neutral80);
     height: 5rem;
     flex-direction: row;
