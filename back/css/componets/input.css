@@ -1,0 +1,42 @@
+/* Inputs */
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+  }
+  
+  .input-container input, .input-container select {
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+    outline: none;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+  
+  .input-container select {
+    cursor: pointer;
+  }
+
+  .input-container .label {
+    user-select: none;
+    transform: translateY(-1.7rem);
+    transition: all 0.3s ease;
+    pointer-events: none;
+    color: var(--md-ref-palette-neutral-variant50);
+  }
+  
+  .input-container select:focus~ .label,
+  .input-container select:valid~ .label,
+  .input-container input:focus ~ .label,
+  .input-container input:valid ~ .label {
+    transform: translateY(-3.7rem);
+    font-size: 1rem;
+  }
+
+  .input-container input:focus {
+    border-bottom: 1px solid var(--md-ref-palette-secondary50);
+  }

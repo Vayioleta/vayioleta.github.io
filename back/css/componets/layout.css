@@ -1,0 +1,16 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.v-content { 
+    grid-area: content;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 1rem;
+}
