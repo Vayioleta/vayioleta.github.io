@@ -1,9 +1,9 @@
 ---
 title: Bitácora de vuelo (Libro)
-published: 2023-07-01
-description: "How to use this blog template."
+published: 2021-03-01
+description: "Libro escrito con OpenAI GPT 2 (Beta)"
 image: "./cover.png"
-tags: ["Libros", "Historia"]
+tags: ["Libros", "Historia", IA]
 category: Libros
 draft: false
 ---
