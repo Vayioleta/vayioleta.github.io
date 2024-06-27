@@ -1,7 +1,7 @@
 ---
 title: WhisperIA-Docker-Local
 published: 2022-11-28
-tags: [Python, IA]
+tags: [Python, IA, Docker]
 description: "Whisper OpenIA Docker Local"
 category: IA
 draft: false

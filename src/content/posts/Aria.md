@@ -1,7 +1,7 @@
 ---
 title: Aria SQL
 published: 2024-06-14
-tags: [Python, Javascript, IA]
+tags: [Python, Javascript, IA, Docker]
 description: "Aria es un innovador asistente de inteligencia artificial diseñado para facilitar la creación, optimización y comprensión de consultas SQL"
 category: IA
 draft: false
