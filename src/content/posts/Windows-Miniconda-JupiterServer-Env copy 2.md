@@ -3,7 +3,7 @@ title: Windows-Miniconda-JupiterServer-Env
 published: 2024-04-08
 tags: [Python, IA]
 description: "Instalador Automatizado para Windows de Jupiter Server y Anaconda"
-category: IA
+category: DevOps
 draft: false
 ---
 

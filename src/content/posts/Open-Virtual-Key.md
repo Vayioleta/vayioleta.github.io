@@ -3,7 +3,7 @@ title: Open-Virtual-Key
 published: 2022-12-09
 tags: [C++, Hardware developer ]
 description: "El Administrador de Contraseñas de Arduino es un sistema que te permite ingresar y almacenar contraseñas de manera segura"
-category: IA
+category: Hardware
 draft: false
 ---
 
