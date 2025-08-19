@@ -3,7 +3,7 @@ title: MermaidViewer
 published: 2025-08-19
 tags: [Mermaid, Javascript, Diagramas]
 description: "Un visor y editor de diagramas Mermaid directamente en tu navegador."
-category: IA
+category: Web
 draft: false
 ---
 

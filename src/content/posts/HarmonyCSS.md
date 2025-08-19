@@ -3,7 +3,7 @@ title: HarmonyCSS
 published: 2023-12-30
 tags: [ CSS, web ]
 description: "HarmonyCSS se asemeja al agua en su versatilidad y capacidad para adaptarse al entorno del diseño web."
-category: IA
+category: Web
 draft: false
 ---
 

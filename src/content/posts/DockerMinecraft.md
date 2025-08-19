@@ -3,7 +3,7 @@ title: Docker-Minecraft-Server
 published: 2023-06-09
 tags: [ Docker ]
 description: "Este repositorio aloja los archivos necesarios para desplegar un servidor de Minecraft utilizando Docker Compose."
-category: IA
+category: DevOps
 draft: false
 ---
 

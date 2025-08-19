@@ -3,7 +3,7 @@ title: IOT-esp32
 published: 2024-04-08
 tags: [Python, C++, Hardware developer]
 description: "Este es un ejemplo que presenté durante una conferencia donde fui invitada como ponente por Donweb."
-category: IA
+category: Hardware
 draft: false
 ---
 
